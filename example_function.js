@@ -15,3 +15,4 @@ console.log(fact (12)) //function call
 console.log(fact (6))
 console.log(fact (5))
 console.log(fact (8))
+console.log(fact(4))
