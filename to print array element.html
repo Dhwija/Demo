@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <script>
+         a=[22,23,25,26]
+         for( var i=0;i<a.length;i++)
+         console.log("index"+ "  "+i+ " "+ "value is" +" "+a[i]);
+//using for in for itterating an array will give thearray indices
+         let colors=["red","green","blue"]
+         for( a in colors)
+         {
+            console.log(colors[a]);
+         }
+//for each() method calls function once for each element in an array
+let c=["pink","orange","black"]
+c.forEach(function(a,index)
+{
+console.log(a);  
+});   
+// for of  - through the values of an iterable object
+let k=["one","two","three"]  
+for(a of k)
+{
+    console.log(a)
+}
+    </script>
+</html>

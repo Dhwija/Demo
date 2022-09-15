@@ -16,3 +16,13 @@ console.log(fact (6))
 console.log(fact (5))
 console.log(fact (8))
 console.log(fact(4))
+
+
+
+function mul(a,b)
+{
+  
+  return   a*b;
+}
+console.log(mul(3,3))
+
